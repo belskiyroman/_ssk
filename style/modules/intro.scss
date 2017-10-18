@@ -1,0 +1,64 @@
+/*================================================ intro page ========================================================*/
+
+.intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 520px;
+  width: 440px;
+  padding-top: 40px;
+  border: 0.5px solid #F0F0F0;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+}
+.intro:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  background: url("../../img/icons/audio.svg") no-repeat;
+}
+.intro-pic {
+  width: 225px;
+  height: 184px;
+}
+.intro-content {
+  width: 346px;
+}
+.intro-text-margin {
+  margin-bottom: 10px;
+}
+.intro-controls {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  border-top: 0.5px solid #E6E6E6;
+}
+.step-indicator {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.step-indicator-item {
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  margin-right: 10px;
+  border-radius: 100%;
+  background-color: #D8D8D8;
+}
+.step-indicator-item.active {
+  background-color: #27C79A;
+}
+.step-indicator-item:last-child {
+  margin-right: 0;
+}

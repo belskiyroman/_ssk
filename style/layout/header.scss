@@ -1,0 +1,57 @@
+@import "../base/colors";
+@import "../base/mixins";
+
+/*======================= header ===========================*/
+.header {
+  height: 60px;
+  background-color: $base-color-1;
+}
+
+.product-title {
+  position: relative;
+  width: 300px;
+  padding: 20px 10px 20px 55px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.user-profile {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 54px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+  text-align: right;
+  text-transform: capitalize;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  color: white;
+}
+
+.user-icon {
+  width: 20px;
+  height: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.user-menu {
+  position: absolute;
+  bottom: 0;
+  right: -10px;
+  transform: translateY(96%);
+  min-width: 100px;
+  min-height: 20px;
+  border: 1px solid #E8EEF4;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
+}

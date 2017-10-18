@@ -1,0 +1,41 @@
+/*================================================ login page ========================================================*/
+
+.login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 460px;
+  width: 880px;
+  padding: 0 88px;
+  border: 0.5px solid #F0F0F0;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+}
+.login-content {
+}
+.login-title {
+  margin-bottom: 12px;
+}
+.login-welcome {
+  margin-bottom: 30px;
+  width: 300px;
+}
+.login-pic {
+  margin-bottom: 48px;
+  height: 208px;
+  width: 286px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .login {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 0;
+  }
+  .login-content {
+    display: flex;
+    flex-direction: column;
+  }
+}

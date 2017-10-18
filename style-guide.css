@@ -1,0 +1,110 @@
+html {
+    font-family: sans-serif;
+}
+
+html,
+body {
+    background-color: #FBFBFB;
+    font-family: 'Montserrat';
+}
+
+/*======================= header ===========================*/
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 229px;
+    background-color: #27C79A;
+}
+
+    .title {
+        height: 102px;
+        width: 440px;
+        color: #FBFBFB;
+        text-align: center;
+        font-family: 'Open Sans';
+    }
+
+        .style-guide {
+            font-size: 64px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .style-guide-project {
+            font-size: 24px;
+        }
+
+/*======================= content ===========================*/
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tile {
+    width: calc(100% - 80px);
+    min-width: 230px;
+    margin: 40px;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 0.5px solid #F0F0F0;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+}
+    .tile-title {
+        height: 37px;
+        width: 153px;
+        margin: 0;
+        margin-bottom: 55px;
+        padding: 0;
+        color: #2E4766;
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 37px;
+    }
+
+    .tile-item {
+        margin-bottom: 50px;
+    }
+
+        .tile-item-title {
+            margin: 0;
+            margin-bottom: 16px;
+            padding: 0;
+            color: #A4A09F;
+            font-size: 11px;
+            text-transform: uppercase;
+            line-height: 11px;
+        }
+        .tile-item-content {  }
+
+.color {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 148px;
+}
+    .color-box {
+        height: 140px;
+        width: 148px;
+        box-sizing: border-box;
+        border: 10px solid #FFFFFF;
+        border-radius: 5px;
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,0.5);
+    }
+        .color-box-view {
+            height: 120px;
+            width: 128px;
+            border-radius: 5px;
+        }
+    .color-code {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        color: #7C7C7C;
+        font-family: 'Open Sans';
+        font-size: 14px;
+        line-height: 24px;
+    }
