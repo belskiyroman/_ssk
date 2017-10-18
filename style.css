@@ -145,6 +145,18 @@ textarea {
 
 /*========================================== palette of style-guide ==================================================*/
 /*=========================================== colors of components ===================================================*/
+.breadcrumbs {
+  margin-bottom: 30px; }
+
+.breadcrumbs-item:not(:last-child):after {
+  content: '›';
+  display: inline-block;
+  margin: 0 6px;
+  font-size: 18px;
+  color: #C5C5C5; }
+
+/*========================================== palette of style-guide ==================================================*/
+/*=========================================== colors of components ===================================================*/
 /*======================= header ===========================*/
 .header {
   height: 60px;
@@ -200,16 +212,24 @@ body {
   padding: 0;
   background-color: #FBFBFB; }
 
-.content-wrap {
+.page-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh; }
 
-.content {
+.page-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column; }
+
+.content-centered {
   flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center; }
+
+.container {
+  max-width: 1140px; }
 
 /*================================================== footer ==========================================================*/
 .footer {
@@ -355,15 +375,3 @@ body {
 
 .step-indicator-item:last-child {
   margin-right: 0; }
-
-/*========================================== palette of style-guide ==================================================*/
-/*=========================================== colors of components ===================================================*/
-.breadcrumbs {
-  margin-bottom: 30px; }
-
-.breadcrumbs-item:not(:last-child):after {
-  content: '›';
-  display: inline-block;
-  margin: 0 6px;
-  font-size: 18px;
-  color: #C5C5C5; }
