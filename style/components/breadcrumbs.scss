@@ -1,8 +1,6 @@
 @import "../base/colors";
 
-.breadcrumbs {
-  margin-bottom: 30px;
-}
+.breadcrumbs {}
 .breadcrumbs-item {}
 .breadcrumbs-item:not(:last-child):after {
   content: '›';

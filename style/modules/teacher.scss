@@ -1,0 +1,48 @@
+@import "../base/colors";
+
+.teacher-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.teacher-list-header {
+  display: flex;
+  justify-content: space-between;
+  min-height: 50px;
+  border: 0.5px solid $gray-850;
+  border-radius: 3px;
+  background-color: $teacher-list-color;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+}
+.teacher-list-item {
+  display: flex;
+  justify-content: space-between;
+  min-height: 68px;
+  border: 0.5px solid $gray-850;
+  border-radius: 3px;
+  background-color: $teacher-list-color;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.13);
+}
+.teacher-add-list-item {
+  box-sizing: border-box;
+  height: 68px;
+  border: 1.5px dashed $gray-700;
+  border-radius: 3px;
+  color: $gray-700;
+  font-family: $font-montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.teacher-list-column {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 270px;
+}
+.teacher-list-column-left {
+  min-width: 260px;
+}
+.teacher-list-column-right {
+  min-width: 370px;
+}
