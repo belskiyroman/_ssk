@@ -1,0 +1,60 @@
+@import "../base/variables";
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  padding-right: 18px;
+}
+.dropdown:after {
+  content: '﹀';
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  font-family: serif;
+  color: $dropdown-bg;
+}
+.dropdown-menu {
+  display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  margin: 0;
+  padding: 4px 0px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(100%) translateX(20%);
+  min-width: 100px;
+  min-height: 20px;
+  border: 1px solid #E8EEF4;
+  border-radius: 4px;
+  background-color: $dropdown-bg;
+  box-shadow: 0 2px 4px 0 $shadow;
+  font-size: 16px;
+  font-family: $font-open-sans;
+  font-weight: 500;
+  color: $font-color-dark;
+}
+.dropdown-menu:after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: 19px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 6px solid white;
+}
+.dropdown-menu-item {
+  padding: 2px;
+}
+.dropdown-menu-item:hover {
+  background: $dropdown-item-hover-bg;
+  color: $dropdown-item-hover-font;
+}

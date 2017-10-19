@@ -1,18 +1,42 @@
 @charset "UTF-8";
-.margin-bottom-30 {
-  margin-bottom: 30px; }
+@import url(../node_modules/normalize.css/normalize.css);
+/*========================================== palette of style-guide ==================================================*/
+/*=========================================== colors of components ===================================================*/
+.m-b-10 {
+  margin-bottom: 10px !important; }
 
-.margin-top-30 {
-  margin-top: 30px; }
+.m-l-10 {
+  margin-left: 10px !important; }
 
-.margin-left-30 {
-  margin-left: 30px; }
+.m-r-10 {
+  margin-right: 10px !important; }
 
-.margin-right-30 {
-  margin-right: 30px; }
+.m-t-10 {
+  margin-top: 10px !important; }
 
-.margin-bottom-10 {
-  margin-bottom: 10px; }
+.m-b-30 {
+  margin-bottom: 30px !important; }
+
+.m-l-30 {
+  margin-left: 30px !important; }
+
+.m-r-30 {
+  margin-right: 30px !important; }
+
+.m-t-30 {
+  margin-top: 30px !important; }
+
+.p-b-30 {
+  padding-bottom: 30px !important; }
+
+.p-l-30 {
+  padding-left: 30px !important; }
+
+.p-r-30 {
+  padding-right: 30px !important; }
+
+.p-t-30 {
+  padding-top: 30px !important; }
 
 .letter-spacing-unset {
   letter-spacing: unset !important; }
@@ -27,6 +51,104 @@
 
 .text-center {
   text-align: center; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Montserrat Thin"), local("Montserrat-Thin"), url(../../fonts/Montserrat/Montserrat-Thin.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Montserrat ExtraLight"), local("Montserrat-ExtraLight"), url(../../fonts/Montserrat/Montserrat-ExtraLight.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Montserrat Light"), local("Montserrat-Light"), url(../../fonts/Montserrat/Montserrat-Light.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url(../../fonts/Montserrat/Montserrat-Regular.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Montserrat Medium"), local("Montserrat-Medium"), url(../../fonts/Montserrat/Montserrat-Medium.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url(../../fonts/Montserrat/Montserrat-SemiBold.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url(../../fonts/Montserrat/Montserrat-Bold.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Montserrat ExtraBold"), local("Montserrat-ExtraBold"), url(../../fonts/Montserrat/Montserrat-ExtraBold.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Montserrat Black"), local("Montserrat-Black"), url(../../fonts/Montserrat/Montserrat-Black.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Open Sans Light"), local("OpenSans-Light"), url(../../fonts/Open_Sans/OpenSans-Light.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"), url(../../fonts/Open_Sans/OpenSans-Regular.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Open Sans SemiBold"), local("OpenSans-SemiBold"), url(../../fonts/Open_Sans/OpenSans-SemiBold.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Open Sans Bold"), local("OpenSans-Bold"), url(../../fonts/Open_Sans/OpenSans-Bold.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Open Sans ExtraBold"), local("OpenSans-ExtraBold"), url(../../fonts/Open_Sans/OpenSans-ExtraBold.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
 
 /*========================================== palette of style-guide ==================================================*/
 /*=========================================== colors of components ===================================================*/
@@ -76,6 +198,13 @@ textarea {
   font-size: 14px;
   font-family: 'Times New Roman', 'MS Serif';
   color: #4A4A4A; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
 
 .button {
   display: inline-block;
@@ -185,6 +314,66 @@ textarea {
 
 /*========================================== palette of style-guide ==================================================*/
 /*=========================================== colors of components ===================================================*/
+.dropdown {
+  position: relative;
+  cursor: pointer;
+  padding-right: 18px; }
+
+.dropdown:after {
+  content: '﹀';
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  font-size: 16px;
+  font-family: serif;
+  color: #FFFFFF; }
+
+.dropdown-menu {
+  display: none; }
+
+.dropdown:hover .dropdown-menu {
+  display: block; }
+
+.dropdown-menu {
+  margin: 0;
+  padding: 4px 0px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translateY(100%) translateX(20%);
+  min-width: 100px;
+  min-height: 20px;
+  border: 1px solid #E8EEF4;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.13);
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: #4A4A4A; }
+
+.dropdown-menu:after {
+  content: '';
+  position: absolute;
+  top: -6px;
+  right: 19px;
+  display: block;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 6px solid white; }
+
+.dropdown-menu-item {
+  padding: 2px; }
+
+.dropdown-menu-item:hover {
+  background: #27C79A;
+  color: #FFFFFF; }
+
+/*========================================== palette of style-guide ==================================================*/
+/*=========================================== colors of components ===================================================*/
 /*======================= header ===========================*/
 .header {
   height: 60px;
@@ -217,22 +406,12 @@ textarea {
   line-height: 14px;
   color: white; }
 
+.user-role {
+  font-weight: 100; }
+
 .user-icon {
-  width: 20px;
   height: 20px;
   font-family: 'Montserrat', sans-serif; }
-
-.user-menu {
-  position: absolute;
-  bottom: 0;
-  right: -10px;
-  transform: translateY(96%);
-  min-width: 100px;
-  min-height: 20px;
-  border: 1px solid #E8EEF4;
-  border-radius: 4px;
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.09); }
 
 html,
 body {

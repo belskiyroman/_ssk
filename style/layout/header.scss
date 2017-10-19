@@ -36,22 +36,10 @@
   line-height: 14px;
   color: white;
 }
-
+.user-role {
+  font-weight: 100;
+}
 .user-icon {
-  width: 20px;
   height: 20px;
   font-family: 'Montserrat', sans-serif;
-}
-
-.user-menu {
-  position: absolute;
-  bottom: 0;
-  right: -10px;
-  transform: translateY(96%);
-  min-width: 100px;
-  min-height: 20px;
-  border: 1px solid #E8EEF4;
-  border-radius: 4px;
-  background-color: #FFFFFF;
-  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.09);
 }

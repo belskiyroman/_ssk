@@ -1,18 +1,20 @@
-.margin-bottom-30 {
-  margin-bottom: 30px
+@import "../base/colors";
+@each $size in (10, 30) {
+  @each $prop in (b: bottom, l: left, r: right, t: top) {
+    .m-#{nth($prop, 1)}-#{$size} {
+      margin-#{nth($prop, 2)}: #{$size}px !important;
+    }
+  }
 }
-.margin-top-30 {
-  margin-top: 30px
+
+@each $size in (30) {
+  @each $prop in (b: bottom, l: left, r: right, t: top) {
+    .p-#{nth($prop, 1)}-#{$size} {
+      padding-#{nth($prop, 2)}: #{$size}px !important;
+    }
+  }
 }
-.margin-left-30 {
-  margin-left: 30px;
-}
-.margin-right-30 {
-  margin-right: 30px;
-}
-.margin-bottom-10 {
-  margin-bottom: 10px;
-}
+
 .letter-spacing-unset {
   letter-spacing: unset !important;
 }
